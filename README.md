@@ -1,6 +1,6 @@
 # Objectives
 
-- Filtering and Odering the index action
+- Filtering and Ordering the index action
 - Stateless authentication for the API
 - Versioning the API
 - Throttling API usage
@@ -10,6 +10,8 @@
 **The starter code for this week's lab is the solution to last week's lab.**
 
 **If you have any issues with swagger docs not working properly - clear your cache. In Google Chrome, a hard reload should work.**
+
+**If you are using the starter code from GitHub, make sure you `bundle install`, `rails db:migrate`, and `rails db:seed` before getting started.**
 
 ## Part 1 - Filtering and Ordering
 
@@ -70,6 +72,8 @@ One thing that we will be improving upon in this lab is filtering and ordering. 
      - password_digest (string)
      - api_key (string)
      - active (boolean)
+
+   Make sure you run `rails db:migrate` so that the schema is updated with this new model!
 
 2. For now let's fill the User model with some validations. This is pretty standard and we have already done something similar before, so just copy paste the code below to your User model.
 
